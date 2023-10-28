@@ -18,3 +18,4 @@ sklearn
 streamlit
 tensorflow
 uvicorn
+transformers
