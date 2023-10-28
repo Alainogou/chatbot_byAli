@@ -14,7 +14,7 @@ PyMuPDF
 PyPDF2
 requests
 seqeval
-sklearn
+scikit-learn
 streamlit
 tensorflow
 uvicorn
