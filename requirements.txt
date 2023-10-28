@@ -6,7 +6,7 @@ joblib
 keras
 Markdown
 matplotlib
-gunicorn
+Gunicorn==20.1.0
 pandas
 Pillow
 pydantic
