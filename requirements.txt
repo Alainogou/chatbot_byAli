@@ -1,11 +1,4 @@
-fastapi
 Flask
-jedi
-Jinja2
-joblib
-keras
-Markdown
-matplotlib
 Gunicorn==20.1.0
 PyMuPDF
 PyPDF2

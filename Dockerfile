@@ -1,11 +1,9 @@
-FROM python:3.10
-FROM tensorflow/tensorflow:latest
+FROM python:3.10-slim
 
 WORKDIR /app
 
 COPY requirements.txt .
-RUN python3 -m pip install --upgrade pip
-RUN pip uninstall blinker Werkzeug
+
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
