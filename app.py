@@ -3,10 +3,6 @@ from transformers import AutoTokenizer, TFAutoModelForTokenClassification, pipel
 import re
 import fitz
 from io import BytesIO
-import tensorflow as tf
-
-# Forcer TensorFlow à utiliser le CPU
-tf.config.set_visible_devices([], 'GPU')
 
 
 app = Flask(__name__)
