@@ -7,15 +7,7 @@ keras
 Markdown
 matplotlib
 Gunicorn==20.1.0
-pandas
-Pillow
-pydantic
 PyMuPDF
 PyPDF2
-requests
-seqeval
-scikit-learn
-streamlit
-tensorflow
 uvicorn
 transformers
