@@ -1,4 +1,5 @@
 Flask
+tensorflow
 Gunicorn==20.1.0
 PyMuPDF
 PyPDF2
